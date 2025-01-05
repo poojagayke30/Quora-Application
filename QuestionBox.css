@@ -1,0 +1,105 @@
+.question-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .add-question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    }
+    
+    .add-question input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    }
+    
+    .add-question button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    }
+    
+    .add-question button:first-child {
+    background-color: #4CAF50;
+    color: #fff;
+    }
+    
+    .add-question button:last-child {
+    background-color: #f7f7f7;
+    color: #333;
+    }
+    
+    .create-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    }
+    
+    .create-post select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    }
+    
+    .create-post textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    }
+    
+    .create-post button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    }
+    
+    /* Media queries for responsiveness */
+    
+    @media only screen and (max-width: 768px) {
+    .question-box {
+    padding: 10px;
+    }
+    .add-question input[type="text"] {
+    padding: 5px;
+    }
+    .create-post textarea {
+    padding: 5px;
+    }
+    }
+    
+    @media only screen and (max-width: 480px) {
+    .question-box {
+    padding: 5px;
+    }
+    .add-question input[type="text"] {
+    padding: 2px;
+    }
+    .create-post textarea {
+    padding: 2px;
+    }
+    }

@@ -1,0 +1,127 @@
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-content {
+  margin-top: 10px;
+}
+
+.post-actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-button {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: #f7f7f7;
+}
+
+.action-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.action-text {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.upvote-button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.upvote-button:hover {
+  background-color: #0056b3;
+}
+
+.downvote-button {
+  background-color: #dc3545;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.downvote-button:hover {
+  background-color: #c82333;
+}
+
+.comment-button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.comment-button:hover {
+  background-color: #3e8e41;
+}
+
+.share-button {
+  background-color: #2196F3;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.share-button:hover {
+  background-color: #1A76D2;
+}
+
+.card {
+  border: 1px solid #ddd;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Upvote and Downvote Buttons */
+.card .upvote, .card .downvote {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.card .upvote:hover .svg, .card .downvote:hover .svg {
+  color: #2b6cb0; /* Quora-like blue for hover */
+}
+
+/* Interaction Buttons */
+.card .interaction-buttons img {
+  margin-right: 5px;
+  height: 18px;
+  width: 18px;
+}
+
+.card .interaction-buttons span {
+  font-weight: bold;
+}

@@ -1,0 +1,83 @@
+.space-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    }
+    
+    .space-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    
+    .space-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+    
+    .space-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.2s ease-in-out;
+    }
+    
+    .space-item:hover {
+    background-color: #f7f7f7;
+    }
+    
+    .space-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    }
+    
+    .space-info {
+    flex: 1;
+    }
+    
+    .space-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    }
+    
+    .space-description {
+    font-size: 14px;
+    color: #666;
+    }
+    
+    /* Add animation to space items */
+    
+    .space-item {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    }
+    
+    .space-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Media queries for responsiveness */
+    
+    @media only screen and (max-width: 768px) {
+    .space-container {
+    padding: 10px;
+    }
+    .space-item {
+    padding: 5px;
+    }
+    }
+    
+    @media only screen and (max-width: 480px) {
+    .space-container {
+    padding: 5px;
+    }
+    .space-item {
+    padding: 2px;
+    }
+    }
